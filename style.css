@@ -42,7 +42,8 @@ section{
 }
 
 .content-wrapper{
-    width:1400px;
+    
+    width:90%;
     margin:0 auto;
 }
 
@@ -50,6 +51,12 @@ section{
 
 .header{
     width:100%;
+}
+
+.content-wrapper{
+    
+    width:90%;
+    margin:0 auto;
 }
 
 .header-nav{
@@ -66,7 +73,7 @@ section{
 }
 
 .header nav ul li{
-    margin-right:50px;
+    margin-right:20px;
 }
 
 
@@ -111,7 +118,7 @@ section{
 
 .greeting .contents{
     display:flex;
-    width: 100%;
+    width: 90%;
     justify-content:space-between;
     margin:0 auto;
     align-items:center;
@@ -122,7 +129,7 @@ section{
 }
 
 .greeting .contents .content{
-    width:48%;
+    width:40%;
 }
 
 /*=============work================*/
@@ -152,12 +159,11 @@ section{
 .work ul{
     display:flex;
     justify-content:space-between;
-    width:1400px;
     margin: 0 auto;
 }
 
 .work ul li{
-    width:400px;
+    width:30%;
 }
 
 .work ul li figure{
@@ -167,8 +173,6 @@ section{
 /*=============NEWS================*/
 
 .news .content-wrapper{
-    width:1200px;
-    margin:0 auto;
     margin-bottom: 280px;
 }
 
@@ -241,12 +245,9 @@ footer{
     width:100%;
 }
 
-footer .content-wraper .company{
-    width:1200px;
+footer .company{
+    width:80%;
     margin:0 auto;
-    
-}
-footer .content-wraper .company{
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -259,10 +260,10 @@ footer nav ul{
 }
 
 footer nav ul li{
-    margin-right:50px;
+    margin-right:20px;
 }
 
-footer .content-wraper .copylight p{
+footer .copylight p{
     font-size:0.3rem;
     text-align:center;
     background: #e8e7e7;
