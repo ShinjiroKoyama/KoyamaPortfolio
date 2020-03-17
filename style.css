@@ -1,0 +1,321 @@
+html{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック", sans-serif;
+    font-weight:500;
+    color:#333;
+    line-height:2.0;    
+}
+
+h2,h3,h4,h5{
+    margin:0;
+    padding:0;
+}
+img{
+    width:100%;
+    vertical-align:bottom;
+}
+ul,li,dl,dt,dd{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+    color: #000;
+}
+
+a:hover{
+    transition: .3s;
+    opacity:0.6;
+}
+
+section{
+    margin-bottom:120px;
+}
+
+.content-wrapper{
+    
+    width:90%;
+    margin:0 auto;
+}
+
+/*==============header===================*/
+
+.header{
+    width:100%;
+}
+
+.content-wrapper{
+    
+    width:90%;
+    margin:0 auto;
+}
+
+.header-nav{
+    height:100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav ul li{
+    margin-right:20px;
+}
+
+
+/*==============mainvisual===================*/
+
+.mainvisual{
+    position:relative;
+    width:100%;
+    height:400px;
+}
+
+.mainvisual img{
+    width:70%;
+    height:300px;
+    object-fit:cover;
+    margin-left: 30%;
+
+}
+.mainvisual h2{
+    position:absolute;
+    top:20%;
+    left:20%;
+    background:rgba(255,255,255,0.6);
+    font-size:3rem;
+    padding:1rem;
+}
+
+.bg1{
+    background: #e8e7e7;
+    height: 480px;
+    width: 45%;
+    position:absolute;
+    top:-30%;
+    left:0;
+    z-index:-1;
+}
+
+/*=============greeting================*/
+.greeting h2{
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.greeting .contents{
+    display:flex;
+    width: 90%;
+    justify-content:space-between;
+    margin:0 auto;
+    align-items:center;
+}
+
+.greeting .contents figure{
+    width:40%;
+}
+
+.greeting .contents .content{
+    font-size:0.8rem;
+    width:40%;
+}
+
+/*=============work================*/
+
+.work{
+    width:100%;
+    padding-top:40px;
+    position:relative;
+    margin-bottom:180pt;
+}
+
+.work::before{
+    content:'';
+    background:#e8e7e7;
+    position:absolute;
+    width:100%;
+    height:650px;
+    z-index:-1;
+}
+
+.work h2{
+    margin-bottom:60px;
+    text-align:center;
+    padding-top:10pt;
+}
+
+.work ul{
+    display:flex;
+    justify-content:space-between;
+    margin: 0 auto;
+}
+
+.work ul li{
+    width:30%;
+}
+
+.work ul li figure{
+    margin:0;
+}
+
+/*=============NEWS================*/
+
+.news .content-wrapper{
+    margin-bottom: 280px;
+}
+
+.news h2{
+    margin-bottom: 50px;
+    text-align:center;
+}
+
+.news li{
+    border-bottom: dotted 1px #dedede;
+    padding:20px 0pt;
+}
+
+.news li a{
+    color:#333333;
+}
+
+.news li a:hover{
+    opacity:0.6;
+}
+
+.news li time{
+    font-size: 0.75em;
+    color:#949494;
+    margin-right:80pt;
+}
+
+/*=============RECRUIT================*/
+
+.recruit{
+    width:100%;
+    position:relative;
+    margin-bottom:180pt;
+}
+
+.recruit a{
+    position:absolute;
+    left:30%;
+    top:42%;
+    z-index: 10;
+}
+
+.recruit a h3{
+    background:rgba(255,255,255,0.6);
+    padding:3pt 10pt;
+    font-size: 2rem;
+}
+
+
+.recruit img{
+    
+    width:75%;
+    height:300px;
+    object-fit:cover;
+}
+
+.recruit .bg1{
+    background: #e8e7e7;
+    height: 300px;
+    width: 50%;
+    position:absolute;
+    top:-10%;
+    left:55%;
+    z-index:-1;
+}
+
+/*=============footer================*/
+
+footer{
+    width:100%;
+}
+
+footer .company{
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav ul li{
+    margin-right:20px;
+}
+
+footer .copylight p{
+    font-size:0.3rem;
+    text-align:center;
+    background: #e8e7e7;
+    padding:20pt 0pt;
+    margin-top:50pt;
+}
+/*=============下層ページ================*/
+
+.subvisual{
+    background-image:url(images/macro-1452987_1920.jpg);
+    background-size:100% auto;
+}
+.subvisual h2{
+    line-height:200px;
+    text-align:center;
+    color:#fff;
+    font-weight:normal;
+    align-items: center;
+    
+}
+
+.company{
+    width:100%;
+}
+
+.company table{
+    width:100%;
+    border-bottom:1px solid #e8e7e7;
+ }
+.company table th{
+   background-color:#e8e7e7;
+   width:30%;
+   text-align:left;
+   padding-left:10px;
+}
+.company table td{
+    border-top:1px solid #e8e7e7;
+    width:70%;
+    padding-left:10px;
+ }
+ .company table td p{
+    margin:0;
+ }
+
+ .map{     
+    margin-bottom:20px;
+ }
+ .map iframe{
+     width:100%;
+     height:400px;
+     
+ }
+
